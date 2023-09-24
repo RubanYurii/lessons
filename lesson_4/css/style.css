@@ -1,0 +1,52 @@
+@import url("reset.css");
+header {
+	color: blueviolet;
+}
+
+header b {
+	color: brown;
+}
+
+.block {
+	color: aqua;
+}
+
+.block p {
+	color: blueviolet;
+}
+
+main {
+	color: black;
+}
+
+.block div > h3 {
+	color: red;
+}
+
+#typewriter {
+	color: green;
+}
+
+.list > li {
+	color: gold;
+}
+
+li + li {
+	color: greenyellow;
+}
+
+* {
+	color:blue;
+}
+
+.work.list {
+	color:lightpink
+}
+
+a[target] {
+	color:black;
+}
+
+#career ~ p {
+	color:black;
+}
