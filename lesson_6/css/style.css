@@ -1,0 +1,194 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+.consalting img {
+	width: 716px;
+	height: 477px;
+	margin-bottom: 24px;
+}
+
+.consalting {
+	margin-bottom: 50px;
+}
+
+body {
+	font-family: Inter;
+	font-weight: 400;
+	color: #7d7d7d;
+	max-width: 1500px;
+	padding-left: 200px;
+}
+
+.text {
+	margin-bottom: 40px;
+}
+
+.text h2 {
+	color: #37393f;
+	font-family: Poppins;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12.5px;
+}
+
+.text p {
+	color: #7d7d7d;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+	margin-bottom: 42px;
+}
+
+.text h3 {
+	color: #6b77e5;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+
+.benefits {
+	min-width: 692px;
+	font-size: 0;
+}
+
+.benefits img {
+	width: 332px;
+	height: 266px;
+}
+
+.info {
+	margin-left: 13px;
+	width: 332px;
+	display: inline-block;
+}
+
+.info h3,
+h4 {
+	color: #37393f;
+	font-family: Poppins;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 15px;
+}
+
+.info h4 {
+	color: #40ddb6;
+	font-size: 20px;
+	margin-bottom: 24px;
+	width: 322px;
+}
+
+.info li {
+	color: #7d7d7d;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+	margin-bottom: 30px;
+}
+
+.decorations {
+	width: 1200px;
+	margin-bottom: 50px;
+}
+
+.decorations-info {
+	display: inline-block;
+	width: 500px;
+	vertical-align: top;
+}
+
+.decorations-img {
+	display: inline-block;
+}
+
+.sub-title {
+	color: #d06b00;
+	font-size: 28px;
+	padding-top: 21px;
+}
+
+.title {
+	color: #0e333d;
+	font-family: DM Serif Text;
+	font-size: 59px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.47;
+}
+
+.text {
+	color: #474747;
+	font-size: 20px;
+	line-height: 1.8;
+}
+
+.errings {
+	margin-left: 20px;
+}
+
+footer {
+	background-color: blue;
+	font-size: 25px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+footer span {
+	display: block;
+	background-color: yellow;
+}
+
+/* ==========================Практика========================== */
+.practica {
+	padding: 100px; /*==Не передається дочірнім елементам==*/
+	width: 1200px; /*==Діє на весь контент крім зображення==*/
+	background-color: lawngreen;
+	/* min-width: 500px; */
+	margin: 0 auto;
+	height: 1000px;
+	/* overflow: hidden; */
+}
+
+.practica-text {
+	background-color: green;
+	padding: 20px;
+	margin-bottom: 20px;
+	max-width: 500px;
+	height: 500px; /*==Може перебити паддінг-боттом якщо контент менше ніж розмір бекграунд*/
+	overflow: scroll;
+	display: inline-block;
+}
+
+.span-text {
+	background-color: yellow;
+	/* padding: 15px;  ====Діє непередбачувано======*/
+	margin-bottom: 50px; /*====Діє непередбачувано====== */
+	width: 100px; /*==Не діє на рядкові елементи==*/
+	min-width: 70px; /*==Не діє на рядкові елементи==*/
+	height: 200px; /*==Не діє на рядкові елементи==*/
+	overflow: scroll; /*==Не діє на рядкові елементи==*/
+	display: inline-block; /*==Тепер приміняються всі властивості як до блочного елементу==*/
+	vertical-align: bottom;
+}
+
+.practica-web {
+	background-color: blue;
+	padding: 10px;
+	margin-top: 40px;
+	width: 200px;
+	min-width: 300px;
+	height: 300px;
+	overflow: scroll; /*==Не діє img елементи==*/
+	vertical-align: bottom;
+}
