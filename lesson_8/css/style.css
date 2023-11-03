@@ -1,0 +1,412 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+header {
+	text-align: center;
+	font-size: 30px;
+	color: aqua;
+	margin-bottom: 20px;
+}
+
+.euphoria-clothing {
+	max-width: 1240px;
+	margin: 0 auto;
+	color: #807d7e;
+	font-family: "Causten";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.6;
+	letter-spacing: 0.4px;
+	margin-bottom: 30px;
+}
+
+.euphoria-clothing-wrapper {
+	margin-bottom: 30px;
+}
+.euphoria-clothing-title {
+	background: url(../img/line.png) 0 0 / 6px 30px no-repeat;
+	color: #3c4242;
+	font-family: "Core Sans C";
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 0.56px;
+	display: inline-block;
+	padding-left: 21px;
+}
+
+.euphoria-clothing-suptitle {
+	font-family: "Core Sans C";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.6;
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+	padding-left: 21px;
+}
+
+.euphoria-clothing-text {
+	margin-bottom: 20px;
+	padding-left: 21px;
+}
+/* ============================2 euphoria-block-photo============================ */
+.euphoria-photo {
+	margin-bottom: 50px;
+}
+
+.euphoria-photo-wrapper {
+	max-width: 1240px;
+	font-size: 0;
+	vertical-align: top;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.leaf h1 {
+	color: #fff;
+	font-family: "Core Sans C";
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 50px; /* 147.059% */
+	letter-spacing: 0.208px;
+	max-width: 466px;
+	margin-bottom: 30px;
+}
+
+.leaf p {
+	color: #fff;
+	font-family: "Causten";
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+
+.leaf {
+	background: green url(../img/leaf.png) center/cover no-repeat;
+	max-width: 614px;
+	display: inline-block;
+	max-height: 640px;
+	vertical-align: top;
+	border-radius: 10px 0 0 10px;
+}
+
+.leaf-content {
+	padding: 183px 74px 175px;
+}
+
+.people {
+	background: url(../img/people.png) center/cover no-repeat;
+	min-width: 626px;
+	min-height: 640px;
+	display: inline-block;
+	border-radius: 0 10px 10px 0;
+}
+
+.leaf-content a {
+	background-color: #fff;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 12px 44px;
+	color: #3c4242;
+	text-align: center;
+	font-family: "Causten";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+/*================================consalting===============================*/
+.consalting {
+	color: #7d7d7d;
+	font-family: "Inter";
+	font-size: 18px;
+	line-height: 1.46;
+	max-width: 673px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+h2 {
+	color: #37393f;
+	font-weight: 500;
+	line-height: 1.2;
+	background: url(../img/green-square.png) 0 5px no-repeat;
+	padding-left: 20px;
+}
+
+.consalting h1 {
+	color: #37393f;
+	font-family: "Poppins";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+	max-width: 413px;
+	margin-bottom: 20px;
+}
+
+.consalting p {
+	margin-bottom: 15px;
+	max-width: 673px;
+}
+
+.consalting li {
+	color: #37393f;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.2;
+	background: url(../img/vector.jpg) 0 3px no-repeat;
+	padding-left: 35px;
+	margin-bottom: 23px;
+	min-height: 30px;
+	padding-top: 6px;
+}
+
+.list {
+	margin-bottom: 43px;
+}
+
+.cards h3 {
+	color: #37393f;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.cards p {
+	line-height: 1.35;
+	font-size: 16px;
+}
+
+.cards-first {
+	display: inline-block;
+	border: 1px solid #e3e3e3;
+	padding: 31px 32px 32px 90px;
+	min-width: 296px;
+	background: url(../img/list.jpg) 31px 32px no-repeat;
+}
+
+.cards-first p {
+	max-width: 173px;
+}
+
+.cards-second {
+	display: inline-block;
+	border: 1px solid #e3e3e3;
+	padding: 31px 37px 32px 95px;
+	margin-left: 21px;
+	min-width: 296px;
+	background: url(../img/сup.jpg) 31px 32px no-repeat;
+}
+
+.cards-second p {
+	max-width: 164px;
+}
+
+.cards {
+	margin-bottom: 37px;
+}
+
+.consalting-info a {
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.2;
+	text-transform: capitalize;
+	display: inline-block;
+	background-color: #6b77e5;
+	padding: 21px 35px 22px 35px;
+}
+/* ============================consalting discover===================== */
+.consalting-discover-text {
+	text-align: center;
+	margin-bottom: 47px;
+}
+
+.consalting-discover h2 {
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: "Inter";
+	font-size: 18px;
+	font-style: normal;
+	margin-bottom: 14px;
+}
+
+.consalting-discover h4 {
+	color: #37393f;
+	font-family: "Poppins";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 121%; /* 48.4px */
+	margin-bottom: 14px;
+}
+
+.consalting-discover-text p {
+	color: #7d7d7d;
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+}
+
+.consalting-discover-photo {
+	max-width: 1220px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.consalting-wrapper-card-1 {
+	margin-right: 30px;
+}
+
+.consalting-wrapper-photo-card-1 {
+	background: url(../img/computer.png) no-repeat;
+	min-width: 366px;
+	min-height: 510px;
+}
+
+.consalting-wrapper-text-1 h5,
+.consalting-wrapper-text-2 h5,
+.consalting-wrapper-text-3 h5,
+.consalting-wrapper-text-4 h5,
+.consalting-wrapper-text-5 h5,
+.consalting-wrapper-text-6 h5 {
+	color: #37393f;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 10px;
+}
+
+.consalting-wrapper-text-1 p,
+.consalting-wrapper-text-2 p,
+.consalting-wrapper-text-3 p,
+.consalting-wrapper-text-4 p,
+.consalting-wrapper-text-5 p,
+.consalting-wrapper-text-6 p {
+	color: #7d7d7d;
+	font-family: Inter;
+	font-size: 14px;
+	line-height: 1.46;
+	background: url(../img/calendar.png) 0 0 no-repeat;
+	padding-left: 25px;
+}
+
+.consalting-wrapper-card-1,
+.consalting-wrapper-card-2,
+.consalting-wrapper-card-3 {
+	margin-bottom: 58px;
+}
+
+.consalting-wrapper-card-2 {
+	margin-right: 30px;
+}
+.consalting-wrapper-photo-card-2 {
+	background: url(../img/man.png) no-repeat;
+	min-width: 366px;
+	min-height: 510px;
+}
+.consalting-wrapper-card-1,
+.consalting-wrapper-card-2,
+.consalting-wrapper-card-3,
+.consalting-wrapper-card-4,
+.consalting-wrapper-card-5,
+.consalting-wrapper-card-6 {
+	display: inline-block;
+	min-width: 366px;
+	min-height: 510px;
+}
+
+.consalting-wrapper-photo-card-3 {
+	background: url(../img/tel.png) no-repeat;
+	min-width: 366px;
+	min-height: 510px;
+}
+
+.consalting-wrapper-card-4 {
+	margin-right: 30px;
+}
+.consalting-wrapper-photo-card-4 {
+	background: url(../img/woman.png) no-repeat;
+	min-width: 366px;
+	min-height: 510px;
+}
+
+.consalting-wrapper-card-5 {
+	margin-right: 30px;
+}
+.consalting-wrapper-photo-card-5 {
+	background: url(../img/schedule.png) no-repeat;
+	min-width: 366px;
+	min-height: 510px;
+}
+
+.consalting-wrapper-photo-card-6 {
+	background: url(../img/cuptea.png) no-repeat;
+	min-width: 366px;
+	min-height: 510px;
+}
+
+/* ================================Практика========================================== */
+
+footer h5 {
+	font-family: Core Sans C;
+	font-size: 30px;
+	background-image: radial-gradient(
+		circle at 22.12% 63%,
+		#94fa95 0,
+		#f175da 25%,
+		#661aa4 50%,
+		#1a5ad1 75%,
+		#11e9a1 100%
+	);
+	line-height: 1.8;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.block-1 {
+	font-family: Custen;
+	font-weight: 600;
+	font-size: 25px;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	background: url("../img/computer.png") center/ 200px no-repeat,
+		url("../img/woman.png") 0 0/100px no-repeat;
+}
+
+.block-2 {
+	color: #060606;
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+	background: url(../img/leaf.png) no-repeat right top / 300px, url(../img/people.png) no-repeat 0 0 / 300px,
+		url(../img/man.png) no-repeat 0 bottom / 250px, url(../img/woman.png) no-repeat right bottom / 250px,
+		url(../img/tel.png) repeat-x 50% 100% / 300px fixed, url(../img/cuptea.png);
+	min-height: 700px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.block-3 {
+	color: #37393f;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 10px;
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	background: #11e9a1 url(../img/people.png);
+}
