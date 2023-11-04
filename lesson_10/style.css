@@ -1,0 +1,24 @@
+.color {
+	background-color: #696969;
+}
+
+.img {
+	text-align: center;
+}
+
+img {
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+p {
+	font-size: 18px;
+}
+
+h1,
+footer {
+	color: blueviolet;
+	text-align: center;
+	font-size: 40px;
+	background: gold;
+}
